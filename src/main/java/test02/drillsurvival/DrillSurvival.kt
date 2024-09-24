@@ -1,17 +1,13 @@
-package test02.drillsurvival;
+package test02.drillsurvival
 
-import org.bukkit.plugin.java.JavaPlugin;
+import org.bukkit.plugin.java.JavaPlugin
 
-public final class DrillSurvival extends JavaPlugin {
-
-    @Override
-    public void onEnable() {
+class DrillSurvival : JavaPlugin() {
+    override fun onEnable() {
         // Plugin startup logic
-
     }
 
-    @Override
-    public void onDisable() {
+    override fun onDisable() {
         // Plugin shutdown logic
     }
 }
