@@ -1,0 +1,4 @@
+name: DrillSurvival
+version: '${project.version}'
+main: test02.drillsurvival.DrillSurvival
+api-version: '1.16'
