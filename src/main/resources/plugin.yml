@@ -4,3 +4,4 @@ main: test02.drillsurvival.DrillSurvival
 api-version: '1.20.6'
 commands:
   무기획득:
+    aliases : [weapon]
