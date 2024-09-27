@@ -1,4 +1,6 @@
 name: DrillSurvival
 version: '${project.version}'
 main: test02.drillsurvival.DrillSurvival
-api-version: '1.16'
+api-version: '1.20.6'
+commands:
+  무기획득:
