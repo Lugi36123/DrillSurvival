@@ -33,9 +33,9 @@ class RightClickOnDrill : Listener{
             }else{
                 en.damage(2.0, p)
 
-                p.sendMessage(en.lastDamage.toString())
+                p.stopSound(Sound.ENTITY_EXPERIENCE_ORB_PICKUP)
 
-
+                var asdasdasdas = i.durability
 
                 Bukkit.getServer().worlds.forEach{world ->
                     world.spawnParticle(Particle.SQUID_INK,en.location,10)
@@ -44,12 +44,11 @@ class RightClickOnDrill : Listener{
 
                 if(p.health > 19){
                 }else{
-                    p.health = p.health + 1
+                    p.health = p.health + 0.1
                 }
             }
 
         }else{
-            p.sendMessage("드릴 아님")
         }
     }
 }
